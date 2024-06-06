@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello there</h1>
+    <table border ="2">
+        <tr>
+        <th>name</th><td>anu</td>
+        </tr>
+        <tr>
+            <th>age</th><td>20</td>
+                        </tr>
+                        <tr>
+                            <th>gender</th><td>female</td>
+                            </tr>
+        <tr>
+            <th rowspan="2">address</th><td>chennai</td>
+        </tr>
+        <form>
+            <center><b><h1>registration form</h1></b></center>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label>Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="enter the username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone</label>
+                        </td>
+                        <td>
+                        <input type="tel" pattern="^[789]\d{9}$">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female</td>
+                    </tr>
+
+                    <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <label>address:</label>
+                    </td>
+                    <td>
+                        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>qualification</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="cb1" value="+2">+2<br>
+                        <input type="checkbox" name="cb2" value="SSLC">SSLC<br>
+                        <input type="checkbox" name="cb3" value="btech">btech<br>
+                        <input type="checkbox" name="cb4" value="mtech">mtech<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>state</label>
+                    </td>
+                    <td>
+                        <select name="state" id="state">
+                            <option disabled selected>select</option>
+                            <option>kerala</option>
+                            <option>tamilnadu</option>
+                            <option>delhi</option>
+                        </select>                     
+                <tr>
+                    <td>
+                        <label>age</label>
+                    </td>
+                    <td>
+                        <input type="number" max="50" min="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="submit">
+
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                        <input type="reset" name="" value="rest">
+                </tr>
+                </tr>
+                
+            </table>
+        </form>
+            
+    </table>
+</body>
+</html>
